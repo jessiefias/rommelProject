@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> About </title>
+<link rel="stylesheet" href="About.css" />
+</head>
+<style>
+  body  {
+  	background-color:white      
+  }
+ </style> 
+<body>
+
+<h1>About Us</h1>
+
+<p> We are A.I.A - a forward thinking studio founded in 2017. <br>Our team consists of talented people that are in search of progress and ways to break boundaries.<br>
+
+Focusing on design and development of websites, applications, logotypes and more, we always use modern technologies and try to solve our clients' problems in new and unique ways.
+
+<p> We offer branding solutions and alternatives for the succsess driven consumer.</p>
+<!-- Slide Show -->
+<section>
+  <img class="mySlides" src="https://i.pinimg.com/originals/8b/18/ca/8b18ca006690bf4c68bb93ce966bb0f7.jpg " style="width:40%">
+  <img class="mySlides" src=" http://www.filmofilia.com/wp-content/uploads/2012/10/Last-Stand-NYCC.jpg" style="width:40%">
+  <img class="mySlides" src=" https://ae01.alicdn.com/kf/HTB134d_PVXXXXbLXVXXq6xXFXXXJ/The-Flash-Speed-font-b-Comic-b-font-font-b-Poster-b-font-Print-Size-50x75cm.jpg " style="width:40%">
+</section>
+
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+</script>
+
+
+
+</body>
+</html>
