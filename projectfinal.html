@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Final </title>
+<link rel="stylesheet" type="text/css" href="projectfinal.css"
+</head>
+
+
+
+
+
+
+<body background="https://pbs.twimg.com/media/DEjigMwU0AE33W8.jpg" >
+
+
+<!--Navigation -->
+<nav> 
+ <a href=" "> Designs </a>
+ <a href=" "> Store   </a> 
+ <a href="">  Contact Us </a>
+</nav>
+
+<h1  align="center"> Ambrose Illustration </h1>
+ 
+ <p  align="center"> A collection of designs and articles for inspiration and creative solutions.
+
+<h2 class="w3-center">
+ Concepts</h2>
+
+ <div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://static1.squarespace.com/static/5484b3b4e4b0883e5fe5efa4/t/575919ad9f726668e616c6b5/1465457073663/adriftII-painting48x36-webres.jpg?format=1500w " style="width:304px;height:228px;">
+  <img class="mySlides" src="https://static1.squarespace.com/static/5484b3b4e4b0883e5fe5efa4/55343a88e4b03d5a7f77d235/55343b31e4b03cb74b7ea04d/1429486666504/adrift-final-webres.jpg?format=1500w " style="width:304px;height:228px;">
+  <img class="mySlides" src="https://d7hftxdivxxvm.cloudfront.net/?resize_to=fit&width=504&height=640&quality=95&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FaWe1a3rWE6vQYEc72sGouw%2Flarge.jpg " style="width:304px;height:228px; ">
+  <img class="mySlides" src="http://www.fromupnorth.com/wp-content/uploads/93422/static1.squarespace-3.jpg " style="width:304px;height:228px;">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<button class="accordion">Sketches</button>
+<div class="panel">
+  <p> <img src= "https://i.pinimg.com/originals/e8/23/91/e8239130dd13a192eded56e62cabb6c0.jpg"</p>
+</div>
+
+<button class="accordion">Painting</button>
+<div class="panel">
+  <p> <img src="https://i.pinimg.com/736x/f3/4e/93/f34e936ca1c84b1a7366febd959464b3--lauren-tsai-art-cognitive-dissonance.jpg"
+</div>
+
+
+</div>
+
+
+
+
+
+ <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}
+</script>
+
+
+
+   
+
+ 
+
+
+
+
+
+
+
+
+	
+  
+
+</body>
+</html>

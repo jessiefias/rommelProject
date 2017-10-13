@@ -1,0 +1,47 @@
+h1 {
+ 	font-size: 30px;
+ 	font-family: Arial,verdana,sans-serif;
+ 	font-weight: 300;
+ 	color: white;
+
+}
+
+h2 {
+ 	font-size: 25px;
+ 	font-family: Arial,verdana,sans-serif;
+ 	font-weight: 300;
+ 	color:white;
+}
+
+
+button.accordion {
+    background-color:pink;
+    color: blue;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color:black; 
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color:black;
+}
+
+img{ border-radius: 8px;
+     max-width: 100% ;
+     height: auto;	
+
+}
+
+	
+
