@@ -2,49 +2,50 @@
 <html>
 <head>
 <title> About </title>
-<link rel="stylesheet" href="About.css" />
+<link rel="stylesheet" type="text/css" href="About.css">
 </head>
-<style>
-  body  {
-  	background-color:white      
-  }
- </style> 
 <body>
+<h1 align="center" > About Us </h1>
+<h2 align="center"> WE ARE A.I ESTABLISHED IN 2018, WE HELP WITH CREATIVE SOULTIONS FOR YOURE <br>BRANDING NEEDS.
+<h3> What we Do</h3>
+<p> A.I is a full service graphic design and Illustration studio catering primarily to the corporate industry.Our service Include:</p>
+<ul>
+   <li> Identity Development </li>
+   <li> Print Design</li>
+   <li> Illustration </li>
+   <li> Packaging Design </li>
+   <li> Apparel Design   </li>
+   </ul>
 
-<h1>About Us</h1>
+ <img src="https://ak0.picdn.net/shutterstock/videos/4479230/thumb/1.jpg?i10c=img.resize(height:160)"> 
+ <p> A.I Stands for Ambrose Illustrations. A.I is a full service Design firm with a focus on corporate branding and start up companies. Let us help you find youre Coprorate Identity.</p>
+ <h3> Contact Us </h3>
+ <p> Pricing design depends on the details and concepts involved , Just email us with youre specifics and we are more than glad to exchange ideas with you.
+ <h3> Blog </h3>
+ Please visit our blog for creative inputs and ideas.
 
-<p> We are A.I.A - a forward thinking studio founded in 2017. <br>Our team consists of talented people that are in search of progress and ways to break boundaries.<br>
+ <h4>Contact Form</h4>
 
-Focusing on design and development of websites, applications, logotypes and more, we always use modern technologies and try to solve our clients' problems in new and unique ways.
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-<p> We offer branding solutions and alternatives for the succsess driven consumer.</p>
-<!-- Slide Show -->
-<section>
-  <img class="mySlides" src="https://i.pinimg.com/originals/8b/18/ca/8b18ca006690bf4c68bb93ce966bb0f7.jpg " style="width:40%">
-  <img class="mySlides" src=" http://www.filmofilia.com/wp-content/uploads/2012/10/Last-Stand-NYCC.jpg" style="width:40%">
-  <img class="mySlides" src=" https://ae01.alicdn.com/kf/HTB134d_PVXXXXbLXVXXq6xXFXXXJ/The-Flash-Speed-font-b-Comic-b-font-font-b-Poster-b-font-Print-Size-50x75cm.jpg " style="width:40%">
-</section>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
 
-<script>
-// Automatic Slideshow - change image every 3 seconds
-var myIndex = 0;
-carousel();
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}
-    x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 3000);
-}
-</script>
-
-
+    <input type="submit" value="Submit">
+  </form>  
 
 </body>
 </html>
