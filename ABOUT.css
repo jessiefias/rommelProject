@@ -1,0 +1,81 @@
+.thead {background-color: black;
+       width:1400px;
+       height: 
+       border:23px solid black;
+       padding: 23px;
+       color: red;
+       font-family:sans-serif;
+       font-size:23px;
+}       
+
+.intro {font-size:20;
+	    font-family: sans-serif;
+	    color: red;
+}
+.hero {box-sizing: inherit;
+       align-self: center;
+       display: block;
+}
+.lp {font-size: 48px;
+     font-family: sans-serif;    
+     margin: 2cm 4cm 3cm 4cm;
+     color: red; 
+}
+
+.con {font-family: sans-serif;
+      font-size: 20px;
+      color: red;
+      margin: 2cm 4cm 3cm 4cm;
+      font-weight: 400px;
+}
+
+.y {background-color: black;
+
+}
+.rt {font-size: 23px;
+     font-family: sans-serif;
+     color: red;
+
+}
+
+.par {font-family: sans-serif;
+      font-size: 20px;
+      margin: 2cm 4cm 3cm 4cm;
+      color: red;  
+}
+.ser{font-family: sans-serif;
+     font-size: 25px;
+     color: red;
+}
+.re {font-family: sans-serif;
+     font-size: 20px;
+     color: red;
+     margin: 2cm 4cm 3cm 4cm;
+}
+.li {font-family: sans-serif;
+     font-size: 18px;
+     color: red;
+}
+h3 {font-family: sans-serif;
+    font-size: 23px;
+    color: red;
+}
+
+.sess {background-color: #010108}
+
+.po {font size: 29px;
+     font-family:sans-serif;
+     text-align: center;
+ }
+
+
+.bobs{color:white;
+     border-radius:5px;
+     padding:20px;
+     border:20px solid black;
+     font-size:23px;
+     font-family: arial;
+     background-color: black;
+}
+
+

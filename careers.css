@@ -1,0 +1,36 @@
+.thead {background-color: black;
+       width:1200px;
+       border:20px solid black;
+       padding: 22px;
+       color: red;
+       font-family:sans-serif;
+       font-size:23px;
+}
+body {background-repeat: no-repeat;
+     	
+
+}
+
+
+.cr {font-family: sans-serif;
+     font-size: 48px;
+     color: white;
+}
+
+.job {font-family: sans-serif;
+      font-size: 23px;
+      margin: 2cm 4cm 3cm 4cm;
+      color: white;
+      font-weight: 900;
+}
+
+
+.ola {color:white;
+     border-radius:9px;
+     width: 1005;
+     padding:20px;
+     border:40px solid black;
+     font-size:23px;
+     font-family: sans-serif;
+     background-color: black;
+            

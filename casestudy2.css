@@ -1,0 +1,152 @@
+
+h3 {font-size: 28px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    margin:2cm 4cm 3cm 4cm;
+}
+     
+
+.head {background-color: black;
+       width:1200px;
+       border:20px solid black;
+       padding: 22px;
+       color: red;
+       font-family:sans-serif;
+       font-size:23px; 
+}
+.p2 {
+	margin:2cm 4cm 3cm 4cm;
+    font-family: sans-serif;
+    font-size:28px;
+    font-weight: 700;
+    color:white;  
+
+ }
+ .collab {background-color
+          width:
+          border
+          color:red;
+          font-family:sans-serif;
+          font-size: 30px;
+          font-weight: 700px
+}
+img {float:center;
+     margin: 0 0 10px 10px;}
+
+.comp {background-color: ;
+       width: 
+       border:20px solid ;
+       padding:22px;
+       color: ;
+   }
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    border:20px solid white;
+    font-family: arial;
+    font-size: 23px;
+
+}
+
+.black{border-radius: 5px;
+       background-color: black;
+       padding: 20px;
+       border:20px solid white;
+       font-family: arial;
+       font-size :23px; 
+}         }
+.p3{color: white;
+    font-family:sans-serif;
+    font-size:23px;
+}
+.la {color:white;
+     border-radius:5px;
+     padding:20px;
+     border:20px solid black;
+     font-size:23px;
+     font-family: sans-serif;
+     background-color: black; 
+}
+
+.fel{font-size: 34px;
+    line-height: 1.5rem;
+    font-family: sans-serif;
+    color:white;
+    font-weight: 700;
+    margin: 2cm 4cm 3cm 4cm; 
+}
+
+
+.ui {color:red; 
+     font-size: 48px;
+     font-family: sans-serif;
+     font-weight: 900
+}
+
+
+.rut{font-size:48px;
+     font-family: sans-serif;
+     margin: 2cm 4cm 3cm 4cm;
+     font-weight: 700;
+     color:white;
+
+}
+
+.run {font-size:48px;
+     font-family: sans-serif;
+     margin: 2cm 4cm 3cm 4cm;
+     font-weight: 700px;
+     color: white;
+}
+
+h4  {font-family:sans-serif;
+     font-size:30px;
+     text-align: center;
+     color: red;
+     font-weight:700;
+}
+
+.we { font-family: sans-serif;
+      text-align: center;
+      font-size: 23px;
+}
+
+._r {font-size: 20px;
+     font-family: sans-serif;
+     margin: 2cm 4cm 3cm 4cm;
+}
+.red {font-weight: 900
+      color:red;  
+}
+h1 {font-size: 48px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+} 

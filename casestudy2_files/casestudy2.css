@@ -1,0 +1,99 @@
+div {
+	background-color: #D69406;
+	width: :18px;
+	border:22px solid #D69406;
+	padding:23px;
+}
+.p1 {
+    margin: 2cm 4cm 3cm 4cm;
+    font-family:arial;
+    font-size:23px;
+
+}
+.head {background-color: black;
+       width:1200px;
+       border:20px solid black;
+       padding: 22px;
+       color: red;
+       font-family:arial;
+       font-size:23px; 
+}
+.p2 {
+	margin:2cm 4cm 3cm 4cm;
+    font-family: arial;
+    font-size:23px;  
+
+ }
+ .collab {background-color:white;
+          width: 1200px;
+          border:20px solid white;
+          padding: 22px;
+          color:black;
+          font-family:arial;
+          font-size: 23px;
+}
+img {float:center;
+     margin: 0 0 10px 10px;}
+
+.comp {background-color: white;
+       width: 1200px;
+       border:20px solid white;
+       padding:22px;
+       color: black;
+   }
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    border:20px solid white;
+    font-family: arial;
+    font-size: 23px;
+
+}
+
+.black{border-radius: 5px;
+       background-color: black;
+       padding: 20px;
+       border:20px solid white;
+       font-family: arial;
+       font-size :23px; 
+}         }
+.p3{color: white;
+    font-style: arial;
+    font-size:23px;
+}
+.la {color:white;
+     border-radius:5px;
+     padding:20px;
+     border:20px solid black;
+     font-size:23px;
+     font-family: arial;
+     background-color: black; 
+}
+
+
