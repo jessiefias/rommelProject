@@ -1,0 +1,239 @@
+.phead {background-color: ;
+       width:auto;
+       color: red;
+       font-family:sans-serif;
+       font-size:22px;
+       top:30px;
+       left: 30px;
+       size: 50px;
+    animation: mymove 5s infinite;
+    animation-name: slidein;
+    background-blend-mode: color-dodge;   
+  }
+
+
+@keyframes slidein {
+from {margin-left: 10%;
+      width: 300%  
+}  
+to{
+  margin-left:0%;
+  width:100;  
+}
+  
+
+}
+
+._hero {font-family:sans-serif; 
+        font-size:60px;
+        font-weight:600;
+        color: #f5f5ef;
+        position: relative;
+        right: 40px;
+        left:100px;
+        l 
+}
+.rt {background-color: ;}
+
+.par {font-family: sans-serif;
+      font-size: 23px;
+      color: #f5f5ef;
+      font-weight:500;
+      left: 100px;
+      position: relative;
+      right: 40px; 
+}
+
+.blue {background-color:;
+       font-family: sans-serif;
+       font-size: 34px;
+       font-weight: 200;
+       color:black;
+}
+
+.dojo {font-size: 23px;
+       font-family: sans-serif;
+       font-weight: 200;
+       color:white;   
+}
+
+nav {font-size: 23px;
+     font-family: sans-serif;
+     color:white;
+     width: 300px;
+     border: ;
+     padding: 20px;
+     margin: 20px;
+     font-weight: 200;
+     position: relative;
+     left: 100px;
+     right: 40px;
+     
+}
+ .ut {font-size: 18px; 
+     font-family: sans-serif;
+     font-weight: 500;
+     color: white;
+     position: relative;
+     left:100px;
+     right: 40px;
+}
+
+ .tred {color: white;
+       position: relative;
+       left: 100px;
+       right: 40px;
+       font-family: sans-serif;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.Wop {background-color:#00ccff ;
+    
+}
+.tu {color: white;
+     font-size:43px;
+     font-weight:600;
+     letter-spacing: 5px;
+     position: relative;
+     left: 90px;
+     right: 90px;
+     margin: 2cm 4cm 3cm 4cm;
+}
+ 
+.STRV { position: relative;
+        left: 40px;
+        right: 40px;
+
+ }
+
+ .io {position:relative;
+      left:  102px;
+      right: 102px;
+      color: red;
+}     
+
+.button{ background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    left:100px;
+    right:100px;
+
+}
+ 
+.button:hover {opacity: 0.5;
+               position: relative;
+               transition: ;
+               text-rendering: 1s;
+               left:5s;
+               transform:;
+               display:;
+               opacity: ;
+               transition-property: 2s;
+               transition-duration: 2s;
+
+}
+
+      
+                
+
+a:hover {color:white;
+
+}
+
+a:active,a:hover {margin-left: 210px;
+
+
+   
+}
+
+i {position: relative;
+   left: 1250px;
+
+}
+
+.fa-play-circle { position: relative;
+                  left: 600px;
+                  right: 600px;
+                  color: red;
+}
+
+.fa-play-circle:hover{opacity: 0.5;
+                      transition: .5
+}
+
+.fa-pinterest-p{position: relative;
+                left: 300px;
+                right: 300px;
+  }
+  a {font-family: arial;
+     
+}
+.fa-bars:hover{ opacity: 0.5;
+                color: red;
+
+} 
+
+.Bu {width: ;
+    height: ;
+    background: ;
+    position: relative;
+    -webkit-animation: mymove s infinite;
+    -webkit-animation-delay:30s; 
+    animation: mymove 30s infinite;
+    animation-direction:
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 300;
+    transition-delay: 20s;
+    transition-property:8s; 
+    transition-duration:8s;
+    margin:margin: 4px 2px;
+    display: inline-block;  
+}
+
+
+
+@-webkit-keyframes mymove {
+    50% {margin-left: 50px;}
+
+}
+
+.icon{
+    width: 90px;
+    background-color: #555;
+}
+
+.icon a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #4CAF50 !important;
+}
+
+span {color:}
+}
+
+
+
+ 
