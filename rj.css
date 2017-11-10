@@ -1,0 +1,147 @@
+.rt {font-size:35px;
+	 font-weight: 700;
+     color:rgb(195, 9, 40);
+     font-family: 'Open Sans', sans-serif;
+     margin-left:30px ;
+     margin-right:100px;
+     position:absolute;
+     font-style: normal;
+
+
+}
+.rt:hover{color:white;
+          cursor:pointer;
+
+}
+.hero {font-size: 4.300rem;
+       font-family: sans-serif;
+       font-weight: 700;
+       margin-left:100px ; 
+       margin-right:400px;
+       color:white;
+       margin-top:100px;
+       letter-spacing: -4px;
+
+}
+.yh{font-size: 4.300rem;
+    font-weight: 700;
+    font-family: sans-serif; 
+    margin-bottom: -23px;
+    margin-top: 23px;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 400px;
+}
+.ui {font-size:1.200rem;
+     font-family: sans-serif;
+     font-weight:;
+     margin-left:100px; 
+     margin-right:400px;
+     color:white;
+}
+
+h2 {color:rgb(195, 9, 40) ;
+    margin-left:100px;
+    margin-right:400px;
+    font-weight: 700; 
+}
+
+.button {background-color:rgb(195, 9, 40);
+	 border-style: solid;
+     border-width: 2px;
+     height: 60px;
+     width: 197px;
+     margin-left:100px; 
+     margin-right:400px;
+
+}
+
+#dc {background-color:#00ccff;
+     border-style:solid rgb(195, 9, 40);
+     border-width: 4px;
+     height: 80px;
+     width:180px;
+     margin-left: 100px;
+     margin-right: 400px;
+}
+
+#dc:hover{background-color: white;
+          color:#00ccff;
+}       
+
+ 
+ h3 {font-family:arial;
+     font-weight: 700;
+     font-size:0.9125rem ;
+     color: white;
+     letter-spacing: 2px;
+
+ }
+
+h3:hover {color:;
+          margin-left: 23px; 
+ }
+
+ .fa-play-circle{color:rgb(195, 9, 40);
+                 position: absolute;
+                 margin-left:900px; 
+                 margin-right:400px;
+                 margin-top: -130px;
+                 background-color:black;
+                 border-color: red;
+
+}
+
+.fa-play-circle:hover{color: white;}
+
+.fa-bars:hover{opacity:0.5;
+               color: rgb(195, 9, 40);
+}                
+button{position: relative;
+       right:300px;
+       left:300px;
+
+}
+.fa-bars{right:1200px;
+         left:1200px;
+         position: relative;
+         font-size: 48px;}
+	 
+.zs {font-size: 23px;
+     color: white;
+ }
+h5 {font-color:gray;}
+
+
+img { margin-right:-109px;
+	  margin-left: 126px;
+     left:100px;
+     float: right;
+     shape-margin:;
+     position:relative;
+     margin-bottom: -34px;
+}
+.er {color: white;}
+.tr {font-size: 0.90rem;
+     color: white;
+     font-family: sans-serif;
+     margin-left:100px; 
+     margin-right:300px;
+}
+.tf {color: white;
+	left: 300px;
+	right: 300px;
+}
+._e2{ margin-bottom: 23px; 
+      padding-left: auto; 
+}
+ .cde {padding-left: auto;}
+ .qa {padding-left: auto;}
+ .zx {padding-left: auto;}
+ #dojo {background-color: #5DDEF2;
+ }
+ .fd {color: white;
+      padding-top: -44px;
+      font-size: 48px;
+      font-family: sans-serif; 
+}
